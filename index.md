@@ -12,7 +12,7 @@ Claude Usage Snapshot Tracker is an internal operations extension used to collec
 
 The extension may collect:
 
-- Employee name and employee email entered by the user or administrator in the extension popup.
+- Employee name, employee email, and team entered by the user or administrator in the extension popup.
 - Snapshot date and time.
 - Usage percentages and reset-time text visibly displayed on the user's Claude Usage page.
 - Capture status, error message, extension version, source label, and collection reason.
@@ -54,7 +54,7 @@ Snapshots are transmitted over HTTPS to the configured Google Apps Script Web Ap
 
 Users or administrators can:
 
-- Configure or clear employee name and email in the extension popup.
+- Configure or clear employee name, email, and team in the extension popup.
 - Configure or clear the webhook URL.
 - Disable automatic collection.
 - Use manual-only collection.
